@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/amount"
+        style="@style/RateAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="100.00" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/amount"
+        android:gravity="right"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/RateName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="USD" />
+
+    <TextView
+        android:id="@+id/desc"
+        style="@style/RateDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/name"
+        android:paddingLeft="10dp"
+        android:text="US Dollars" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/desc"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/usd" />
+
+        </RelativeLayout>
+
+</RelativeLayout>

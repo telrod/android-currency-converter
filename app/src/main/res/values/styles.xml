@@ -1,0 +1,53 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+    </style>
+
+    <style name="CurrencyNameLabel">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="CurrencyName">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="CurrencyDesc">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="RateAmount">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/light_blue</item>
+    </style>
+
+    <style name="RateName">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="RateDesc">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="ConvertButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/blue_corner</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_width">337dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="AmountField">
+        <item name="android:tint">@color/grey</item>
+        <item name="android:textColorHint">@color/light_grey</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+</resources>
